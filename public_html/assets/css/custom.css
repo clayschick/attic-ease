@@ -57,7 +57,7 @@ div.mc-image {
 }
 
 div.maximage-controls {
-    z-index: 999;
+    z-index: 1;
 }
 
 #slider-container {
