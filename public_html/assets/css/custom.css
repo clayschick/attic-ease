@@ -17,28 +17,16 @@ a, a:hover, a:active,
     padding: 2px 0px;
 }
 
-.logo-container .row {
-    /*height: 200px;*/
-}
-
 .retailer-logo {
-    /*height: 100%;*/
     text-align: -webkit-center;
     padding-bottom: 15px;
 }
 
 .retailer-logo img {
-    /*max-height: 100%;
-    max-width: 100%;
-    display: table-cell;
-    vertical-align: middle;*/
     width: 200px;
-    /*height:150px;*/
     margin-bottom: 25px;
 }
-#home-depot {
 
-}
 #home-depot-logo {
     width:120px;
 }
@@ -69,7 +57,7 @@ div.mc-image {
 }
 
 div.maximage-controls {
-    z-index: 999;
+    z-index: 1;
 }
 
 #slider-container {
@@ -105,54 +93,7 @@ div.maximage-controls #slider_prev:hover {
 
 .thumbnail {
     border-radius: 0px;
-    /*-webkit-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;*/
 }
-
-/*#slider .caption {
-    position:absolute;
-    z-index:3;
-    color:#fff;
-    bottom:60px;
-    left: 30px;
-}
-#slider .caption {
-    padding-bottom:40px;
-}
-#slider .caption h1,
-#slider .caption h2 {
-    color:#fff !important;
-    font-size:60px; line-height:70px;
-    padding:6px;
-    background:rgba(0,0,0,0.3);
-    margin:0; margin-bottom:2px;
-    clear:both !important;
-    display:inline-block;
-}
-#slider .caption h2 {
-    font-size:30px; line-height:30px;
-    padding:10px; font-weight:bold;
-}
-#slider .caption p {
-    color:#fff;
-    background:rgba(0,0,0,0.3);
-    clear:both !important;
-    padding:6px; margin:0 0 10px 0;
-}
-#slider .caption a.btn {
-    color:#fff;
-    position:absolute;
-    margin-top:6px;
-    cursor:pointer;
-    z-index:101;
-    bottom:0;
-}
-#slider .caption a.btn-default:hover {
-    color:#333;
-    background-color:#fff !important;
-    border-color :#fff !important;
-}*/
 
 @media only screen and (max-width: 479px) {
     .maximage-controls {
@@ -212,6 +153,12 @@ div.maximage-controls #slider_prev:hover {
     .responsive-bottom-space {
         margin-bottom:80px;
     }
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse.in { 
+		overflow-y:visible !important;
+	}
 }
 
 @media only screen and (max-height: 400px) {
