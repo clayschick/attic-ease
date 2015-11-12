@@ -1172,7 +1172,7 @@ div.e404 {
 	}
 
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1200px) {
 	#portfolio ul.fullwidth .isotope-item,
 	#portfolio ul.fullcenter .isotope-item {
 		width:33.333333333%;  /* 3 items / row */
