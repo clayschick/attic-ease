@@ -1,0 +1,290 @@
+a, a:hover, a:active,
+#header a:hover,
+#footer a:hover,
+#default .styleColor {
+    color:#2a6496;
+    /*color: #0003C7;*/
+}
+
+
+#header ul.nav li:hover>a,
+#header ul.nav li ul li:hover>a {
+    color:#15A9FA;
+    font-style:normal;
+}
+
+#logo {
+    padding: 2px 0px;
+}
+
+.logo-container .row {
+    /*height: 200px;*/
+}
+
+.retailer-logo {
+    /*height: 100%;*/
+    text-align: -webkit-center;
+    padding-bottom: 15px;
+}
+
+.retailer-logo img {
+    /*max-height: 100%;
+    max-width: 100%;
+    display: table-cell;
+    vertical-align: middle;*/
+    width: 200px;
+    /*height:150px;*/
+    margin-bottom: 25px;
+}
+#home-depot {
+
+}
+#home-depot-logo {
+    width:120px;
+}
+
+.stacked-logos img {
+    margin-bottom: 25px;
+}
+
+#slider {
+    position: relative !important;
+    margin-bottom: 0px;
+}
+
+#slider .caption {
+    position: fixed;
+}
+
+#slider .caption #block-bottom {
+    margin-bottom: 1em;
+}
+
+div.mc-image {
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-color: #fff;
+}
+
+div.maximage-controls {
+    z-index: 999;
+}
+
+#slider-container {
+    position:fixed;
+    height:100%;
+	overflow: hidden;
+	width:100%;
+}
+
+#slider .caption a.btn {
+    background-color: #15A9FA;
+}
+
+div.maximage-controls #slider_prev, div.maximage-controls #slider_next {
+    background-color:#15A9FA;   
+}
+div.maximage-controls #slider_next {
+    background-color:#15A9FA;
+    background-position: -53px -98px;
+}
+div.maximage-controls #slider_prev {
+    background-color:#15A9FA;
+    background-position: 0 -98px;
+}
+div.maximage-controls #slider_next:hover {
+    background-color:#15A9FA;
+    background-position: -53px -41px;
+}
+div.maximage-controls #slider_prev:hover {
+    background-color:#15A9FA;
+    background-position: 0 -41px;
+}
+
+.thumbnail {
+    border-radius: 0px;
+    /*-webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;*/
+}
+
+/*#slider .caption {
+    position:absolute;
+    z-index:3;
+    color:#fff;
+    bottom:60px;
+    left: 30px;
+}
+#slider .caption {
+    padding-bottom:40px;
+}
+#slider .caption h1,
+#slider .caption h2 {
+    color:#fff !important;
+    font-size:60px; line-height:70px;
+    padding:6px;
+    background:rgba(0,0,0,0.3);
+    margin:0; margin-bottom:2px;
+    clear:both !important;
+    display:inline-block;
+}
+#slider .caption h2 {
+    font-size:30px; line-height:30px;
+    padding:10px; font-weight:bold;
+}
+#slider .caption p {
+    color:#fff;
+    background:rgba(0,0,0,0.3);
+    clear:both !important;
+    padding:6px; margin:0 0 10px 0;
+}
+#slider .caption a.btn {
+    color:#fff;
+    position:absolute;
+    margin-top:6px;
+    cursor:pointer;
+    z-index:101;
+    bottom:0;
+}
+#slider .caption a.btn-default:hover {
+    color:#333;
+    background-color:#fff !important;
+    border-color :#fff !important;
+}*/
+
+@media only screen and (max-width: 479px) {
+    .maximage-controls {
+        bottom:42px;
+        margin-right:6px;
+    }
+    #slider .caption h1 {
+        font-size:30px !important;
+        line-height:30px !important;
+    }
+    #slider .caption h2 {
+        font-size:20px !important;
+        line-height:20px !important;
+    }
+    #slider .caption p {
+        font-size:13px !important;
+        line-height:16px !important;
+    }
+
+    #middle .page-header.image .absolute h1 {
+        font-size:20px;
+        line-height:20px;
+        margin:0; padding:0;
+    }
+    #middle .page-header.image .absolute p {
+        font-size:12px;
+        line-height:15px;
+        margin:0; padding:0;
+    }
+
+    #slider .caption {
+        left:8px;
+        right:8px;
+        bottom:20px;
+    }
+    #slider .caption h1 {
+        font-size:50px;
+    }
+    #slider .caption h1,
+    #slider .caption h2 {
+        display:block;
+    }
+
+    div.maximage-controls {
+        margin-right:5px;
+        bottom:13px;
+    }
+
+    #portfolio ul.fullwidth .isotope-item,
+    #portfolio ul.fullcenter .isotope-item {
+        width:100%;   /*1 item / row*/
+    }
+
+    .responsive-top-space {
+        margin-top:80px;
+    }
+    .responsive-bottom-space {
+        margin-bottom:80px;
+    }
+}
+
+@media only screen and (max-height: 400px) {
+    #slider .caption h1 {
+        font-size:25px !important;
+        line-height:25px !important;
+    }
+    #slider .caption h2 {
+        font-size:13px !important;
+        line-height:13px !important;
+    }
+
+}
+
+@media only screen and (max-height: 340px) {
+    #slider .caption h1 {
+        font-size:20px !important;
+        line-height:20px !important;
+    }
+    #slider .caption p {
+        font-size:11px !important;
+        line-height:11px !important;
+    }
+    #topBar {
+        display:none;
+    }
+    #slider .caption {
+        bottom:36px !important;
+    }
+
+    #slider_next,
+    #slider_prev {
+        width:40px !important;
+        height:40px !important;
+    }
+    div.maximage-controls #slider_prev {
+        background-position: -4px -46px;
+    }
+    div.maximage-controls #slider_next {
+        background-position: -57px -46px;
+    }
+    div.maximage-controls {
+        bottom:29px;
+    }
+}
+
+@media only screen and (max-height: 325px) {
+    #slider_next,
+    #slider_prev {
+        display:none !important;
+    }
+
+    #slider .caption .btn {
+        font-size:10px !important;
+        padding:1px 3px !important;
+        position:absolute !important;
+        right:0 !important;
+    }
+    #slider .caption {
+        bottom:33px !important;
+        margin:0; padding:0;
+    }
+    #slider .caption p br {
+        display:none !important;
+    }
+}
+
+
+
+#menards-logo {
+    padding-top: 15px;
+}
+
+#improvements-logo {
+    padding-top: 12px;
+}
